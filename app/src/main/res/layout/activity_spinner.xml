@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerActivity">
+
+
+    <TextView
+        android:id="@+id/headText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spinner_demo"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/editView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headText"
+        android:padding="@dimen/_7sdp"
+        android:hint="@string/edit_your_spinner"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textColor="@color/DarkBlue"
+        android:layout_margin="@dimen/_30sdp"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/btnADD"
+        app:layout_constraintTop_toBottomOf="@+id/editView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/button_back"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textAllCaps="true"
+            android:textColor="@color/_White"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textStyle="bold"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        app:layout_constraintTop_toBottomOf="@+id/btnADD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

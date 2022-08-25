@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beauti_of_back"
+    tools:context=".AskPermissionsActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/permission"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/_25sdp"
+        />
+
+    <TextView
+        android:id="@+id/permissionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_all_permissions"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_25sdp"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        app:layout_constraintStart_toStartOf="@+id/img"
+        app:layout_constraintEnd_toEndOf="@+id/img"
+        android:layout_marginTop="@dimen/_35sdp"
+        />
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/permissionTV"
+        app:layout_constraintEnd_toEndOf="@+id/permissionTV"
+        android:background="@drawable/edit_text"
+        android:hint="@string/dial_number_et"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center_vertical|center_horizontal"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:layout_margin="@dimen/_30sdp"
+        />
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/phoneET"
+        app:layout_constraintTop_toBottomOf="@+id/phoneET"
+        android:textAllCaps="false"
+        android:text="Call"
+        android:backgroundTint="@color/semiWhite"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/_10sdp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

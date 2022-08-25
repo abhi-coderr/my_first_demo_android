@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semiWhite"
+    tools:context=".ViewPagerActivity">
+
+
+    <Toolbar
+        android:id="@+id/toolbarHead"
+        android:background="@drawable/backbest"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolText"
+            android:text="Home"
+            android:textSize="@dimen/_15ssp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </Toolbar>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHead"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_manu"
+        android:background="@color/_White"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

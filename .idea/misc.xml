@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/back_good.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/backbest.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/backgoodest.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/beauti_of_back.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/button_back.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/button_background.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/button_color.xml" value="0.109" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/changeback.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/company_capsule.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/edit_camera.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_create_new_folder_24.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_lock_open_24.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ic_home_background.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/logoutback.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/magic_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/main_back.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/photo_back.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/profile_back.xml" value="0.1015" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/rating_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/ratingbar_filled.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/show.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/drawable/srk_layout.xml" value="0.1535" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_all_layouts.xml" value="0.14" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_app_compat_switch.xml" value="0.18" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_ask_permissions.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_button.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_collapsing_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_constraint_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_edit_text.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_google_map.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_main.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_map_view.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_multiple.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_multiple_selection.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_nested.xml" value="0.15" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_permission.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_profile.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_progress.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_radio_button.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_rating_bar.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_receive.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_recycler.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_scroll_view.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_shared_preferences.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_spinner.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_text_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_three.xml" value="0.17" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_three_fragments.xml" value="0.14" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_view_pager.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_web_view.xml" value="0.18" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/activity_xd_design.xml" value="0.18" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/card_view_design.xml" value="0.12" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_f.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_f_t.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_first.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_s_t.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_second.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_t_t.xml" value="0.1" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/fragment_third.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/item_multiple.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/item_todo.xml" value="0.32303370786516855" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/layout_multi_selection.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/nav_header.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/layout/student_name.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/menu/bottom_nav_manu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/menu/nav_h_menu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Oneclick/AndroidStudioProjects/FirstDemo/app/src/main/res/mipmap-anydpi-v26/ic_home_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

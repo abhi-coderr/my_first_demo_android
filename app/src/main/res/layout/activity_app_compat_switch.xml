@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/changeLayout"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AppCompatSwitch_Activity">
+
+    <TextView
+        android:id="@+id/textForMagic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magicText"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/the_another_magic_for_you_dear"
+        android:textAllCaps="true"
+        android:textColor="#FF8800"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/onOf"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textForMagic"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/magicText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="37dp"
+        android:visibility="gone"
+        android:layout_margin="30dp"
+        android:textColor="#FF9800"
+        android:text="@string/now_you_are_in_the_universe" />
+
+    <TextView
+        android:id="@+id/askText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_above="@+id/onOf"
+        android:textSize="37dp"
+        android:visibility="gone"
+        android:layout_margin="30dp"
+        android:textColor="@android:color/holo_red_light"
+        android:text="@string/are_you_want_to_go_in_universe_again" />
+
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onOf"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="@string/status"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radioRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center"
+    tools:context=".RadioButtonActivity">
+
+    <RadioGroup
+        android:id="@+id/redioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Male"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Female"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="other"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/redioGroup"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_margin="30dp"/>
+
+</RelativeLayout>

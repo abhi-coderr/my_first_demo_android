@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.firstdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstDemo">
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".AskPermissionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeFragmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReceiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MultipleSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NestedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XdDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllLayoutsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppCompatSwitch_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EditText_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Button_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TextView_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARQ8MGmOEbEDNucmYopow1GfgwA62nd-8" />
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeFragmentsActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentThreeF"
+        android:name="com.example.firstdemo.FragmentFT"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/btnFirst"-->
+<!--        android:layout_width="@dimen/_95sdp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="@dimen/_20sdp"-->
+<!--        android:backgroundTint="@color/layout_color"-->
+<!--        android:text="@string/fragment_1_f"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="@dimen/_10ssp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/btnSecond"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/fragmentThreeF" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSecond"-->
+<!--        android:layout_width="@dimen/_95sdp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/_10sdp"-->
+<!--        android:backgroundTint="@color/Dark"-->
+<!--        android:text="@string/fragment_2_f"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="@dimen/_10ssp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/btnThird"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/btnFirst"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/fragmentThreeF" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnThird"-->
+<!--        android:layout_width="@dimen/_95sdp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="@dimen/_20sdp"-->
+<!--        android:backgroundTint="@color/DarkBlue"-->
+<!--        android:text="@string/fragment_3_f"-->
+<!--        android:textSize="@dimen/_10ssp"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/btnSecond"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/fragmentThreeF" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

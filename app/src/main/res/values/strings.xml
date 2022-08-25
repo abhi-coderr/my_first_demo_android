@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">FirstDemo</string>
+    <string name="the_another_magic_for_you_dear">The another magic for you dear</string>
+    <string name="now_you_are_in_the_universe">Now you are in the Universe</string>
+    <string name="are_you_want_to_go_in_universe_again">Are you want to go in Universe Again?</string>
+    <string name="status">Status</string>
+    <string name="constrain_layout">Constrain Layout</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="let_s_learn_about_layouts">Let\'s Learn about Layouts</string>
+    <string name="enter_you_email">Enter you email</string>
+    <string name="password">password</string>
+    <string name="collapsing_layout">Collapsing Layout</string>
+    <string name="xd_design">XD Design</string>
+    <string name="shah_rukh_khan">Shah Rukh Khan</string>
+    <string name="actor">Actor</string>
+    <string name="srk_gmail_com">srk@gmail.com</string>
+    <string name="numbers">05803803830</string>
+    <string name="t_series">T-Series</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="decrease">Decrease</string>
+    <string name="increase">Increase</string>
+    <string name="the_complicated_one">The complicated One</string>
+    <string name="selected">Selected</string>
+    <string name="done">Done</string>
+    <string name="this_is_multi_selection_recyclerview">This is Multi Selection RecyclerView</string>
+    <string name="home">Home</string>
+    <string name="message">Message</string>
+    <string name="person">Person</string>
+    <string name="profile">Profile</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="go_and_type_the_message_in_fb">Go And type the message in FB</string>
+    <string name="spinner_demo">Spinner Demo</string>
+    <string name="edit_your_spinner">Edit your spinner🖌</string>
+    <string name="add">ADD</string>
+    <string name="given_rating_is">Given Rating is :-</string>
+    <string name="submit">submit</string>
+    <string name="_0">0</string>
+    <string name="status_rating">Status : -</string>
+    <string name="find">find</string>
+    <string name="maps_api_key">AIzaSyARQ8MGmOEbEDNucmYopow1GfgwA62nd-8</string>
+    <string name="three_activity_name">Kindly fill name 🔠</string>
+    <string name="three_activity_age">Kindly fill age 👶</string>
+    <string name="welcome_to_you_dear">Welcome to you dear</string>
+    <string name="kindly_fill_country">Kindly fill country 🏙</string>
+    <string name="send">send</string>
+    <string name="pick_you_profile">Pick you profile</string>
+    <string name="fragment_1_f">Fragment 1</string>
+    <string name="fragment_2_f">Fragment 2</string>
+    <string name="fragment_3_f">Fragment 3</string>
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorAccent">#6200ea</item>
+        <item name="android:colorControlNormal">#f9a825</item>
+    </style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kindly_fill_this_field">Kindly fill this field</string>
+    <string name="fragment_first">Fragment First</string>
+    <string name="fragment_second">Fragment Second</string>
+    <string name="choose_dp">Choose DP</string>
+    <string name="world_of_permissions">Ask for permissions ⏬</string>
+    <string name="request_permission_at_run_time">Request permission at run time</string>
+    <string name="dial_number">Dial number</string>
+    <string name="call">Call</string>
+    <string name="dial_number_et">Dial Number</string>
+    <string name="get_all_permissions">Get all permissions</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="save">save</string>
+</resources>

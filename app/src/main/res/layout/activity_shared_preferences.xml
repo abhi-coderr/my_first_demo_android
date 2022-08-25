@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferencesActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/_80sdp"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/getImage"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/ic_baseline_camera_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edit_camera"
+        app:layout_constraintEnd_toEndOf="@+id/getImage"
+        app:layout_constraintStart_toStartOf="@+id/getImage"
+        app:layout_constraintTop_toTopOf="@+id/getImage"
+        android:layout_margin="@dimen/_90sdp"
+        android:background="@drawable/photo_back"
+        android:padding="@dimen/_4sdp"
+        />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getImage"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/first_name"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp"
+        />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/first_name"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/getImage" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/edit_text"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_15ssp"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:hint="@string/enter_your_phone_number"
+        app:layout_constraintTop_toBottomOf="@+id/firstName"
+        android:layout_margin="@dimen/_30sdp"
+        />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
+            android:layout_marginTop="@dimen/_30sdp"
+            app:layout_constraintStart_toStartOf="@+id/phoneNumber"
+            app:layout_constraintEnd_toEndOf="@+id/phoneNumber"
+            android:backgroundTint="@color/DarkBlue"
+            android:text="@string/save"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

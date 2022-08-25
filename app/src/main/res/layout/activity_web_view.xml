@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semiDark"
+    tools:context=".WebViewActivity">
+
+    <EditText
+        android:id="@+id/editView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:padding="@dimen/_7sdp"
+        android:hint="Put you link here..🔗"
+        android:layout_marginStart="@dimen/_1sdp"
+        app:layout_goneMarginStart="@dimen/_10sdp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textColor="@color/DarkBlue"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        />
+
+
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toEndOf="@+id/editView"
+        app:layout_constraintTop_toTopOf="@+id/editView"
+        app:layout_constraintBottom_toBottomOf="@+id/editView"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:backgroundTint="@color/semiWhite"
+        android:textColor="@color/semiDark"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@id/cardView"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/editView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_height="0dp">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.cardview.widget.CardView>
+
+
+   <ProgressBar
+       android:id="@+id/progress"
+       android:layout_width="@dimen/_20sdp"
+       android:layout_height="@dimen/_40sdp"
+       app:layout_constraintStart_toEndOf="@+id/go"
+       app:layout_constraintTop_toTopOf="@+id/go"
+       android:visibility="invisible"
+       />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

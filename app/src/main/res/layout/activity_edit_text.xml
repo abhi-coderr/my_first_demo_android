@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#98DDF6"
+    tools:context=".EditText_Activity"
+    tools:ignore="ExtraText">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/contai"
+        android:hint="Enter your email please"
+        android:typeface="monospace">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textWebEmailAddress"
+            android:ems="15"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/contain"
+         app:passwordToggleEnabled="true"
+         android:layout_below="@+id/contai"
+        android:hint="Enter valid Password"
+        android:typeface="monospace">
+
+         <com.google.android.material.textfield.TextInputEditText
+             android:id="@+id/edit2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:inputType="textPassword"
+             android:ems="15"
+             />
+     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contain"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Login"
+        android:textAllCaps="false" />
+
+
+
+
+
+
+</RelativeLayout>
